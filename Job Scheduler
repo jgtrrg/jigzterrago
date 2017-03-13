@@ -1,0 +1,71 @@
+User Requirements for Job Scheduler
+  
+ The Job Scheduler has an Admin that can manipulate the Users or the Job Leader. 
+ User can create a job and manipulate it.
+ The Admin can view the status of the Job. 
+ The Admin can print the active and the inactive jobs.
+
+System requirements for Job Scheduler
+ The system must be able to schedule jobs
+ It should have a priority level in every inserted job.
+ A report shall be created for each job and shall list the user and what are the jobs that are assign to them.
+ Access to all job reports shall be restricted to authorized users listed on a management access control list.
+ The system should show the status of every job of every users.
+
+
+Functional Requirements
+Admin
+1.0 Login
+The admin is prompted to enter username and password
+1.1	Forget Password
+The Admin may change the password if password is forgotten.
+2.0 Create job schedule
+2.1 Add Job
+The admin is prompted to add a specific job
+2.2 Edit Job
+The admin may select a different job.
+2.3 Delete Job
+The admin may delete a specific Job
+2.4 Schedule
+The admin is prompted to input the start date and end date for a job
+The admin is prompted to input a start time for the job and the end time for a job
+3.0 Status
+The admin can view the status of the job, if it is completed or not.
+4.0 Print Report
+The admin can view the report of the job.
+
+
+User
+1.0 Login
+The User is prompted to enter username and password
+1.2	Forget Password
+The User may change the password if password is forgotten.
+2.0 Create job schedule
+2.1 Add Job
+The User is prompted to add a specific job
+2.2 Edit Job
+The User may select a different job.
+2.3 Schedule
+The User is prompted to input the start date and end date for a job
+The User is prompted to input a start time for the job and the end time for a job
+3.0 Status
+The User can view the status of the job, if it is completed or not.
+4.0 Print Report
+The User can view the report of the job.
+
+NON-FUNCTIONAL REQUIREMENTS
+
+USABILITY
+It is easy to use because the user can see the schedule of their work and the task that is done in specific date.
+
+SECURITY
+It has a log-in function to prevent others from seeing others schedule.
+
+AVAILABILITY 
+The user can only use the job scheduling system in computer.
+
+RELIABILITY
+No one other than the user can open the system so the only one who can change the data or schedules in the system is the user.
+
+RESPONSE TIME
+When you enter a data for schedule it only takes a few seconds to save it.
